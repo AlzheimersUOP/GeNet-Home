@@ -45,15 +45,13 @@ jQuery(function ($) {
       });
    }
 
-
-
    // Click Scroll Function
-   $(".scroll").on('click', function (event) {
-      event.preventDefault();
-      $("html,body").animate({
-         scrollTop: $(this.hash).offset().top
-      }, 1000);
-   });
+   // $(".scroll").on('click', function (event) {
+   //    event.preventDefault();
+   //    $("html,body").animate({
+   //       scrollTop: $(this.hash).offset().top
+   //    }, 1000);
+   // });
 
 
    $("body").append("<a href='#' class='back-top'><i class='fa fa-angle-up'></i></a>");
