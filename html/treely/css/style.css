@@ -2672,7 +2672,7 @@ p {
 
     h1,
     .main-slider-text {
-        font-size: 42px !important;
+        font-size: 30px !important;
     }
     h2 {
         font-size: 30px;
@@ -3102,7 +3102,7 @@ p {
 @media only screen and (max-width: 540px) {
     h1 ,
     .main-slider-text {
-        font-size: 34px !important;
+        font-size: 20px !important;
     }
     h2 {
         font-size: 28px;
